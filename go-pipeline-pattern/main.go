@@ -81,6 +81,8 @@ func saveImage(input <-chan Job) <-chan bool {
 	return out
 }
 
+//
+
 func main() {
 	imagePaths := []string{
 		"images/image1.jpeg",
